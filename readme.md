@@ -1,3 +1,5 @@
+# Route tools & configurations
+## Non-cn-routes
 Autorun [dndx/nchnroutes](https://github.com/dndx/nchnroutes) on github workflow
 
 API powered by cloudflare workers
@@ -16,3 +18,17 @@ api params:
     device: 
         - eth0 : (default)
         - [string] : device name
+# CN-ASN
+```
+#./asn_cn.py -h
+usage: asn_cn.py [-h] [-o <file>] [-s [{apnic,he,ipip} ...]] [-v]
+
+Generate China ASN list for BIRD.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o, --output <file>   write to file(default: asn_cn.conf)
+  -s, --source [{apnic,he,ipip} ...]
+                        multiple sources can be used at the same time (default: apnic he ipip)
+  -v, --version         show program's version number and exit
+```
