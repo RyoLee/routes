@@ -6,8 +6,8 @@ API powered by cloudflare workers
 
 update configs by api like
 ```bash
-0 2 * * * curl -s https://api.9-cn.com/ncr?device=tun0  -o /etc/bird/routes4.conf
-0 2 * * * curl -s https://api.9-cn.com/ncr?mode=6&device=tun0  -o /etc/bird/routes6.conf
+0 2 * * * curl -s https://api.9-ch.com/ncr?device=tun0  -o /etc/bird/routes4.conf
+0 2 * * * curl -s https://api.9-ch.com/ncr?mode=6&device=tun0  -o /etc/bird/routes6.conf
 ```
 
 api params:
